@@ -1,4 +1,4 @@
-package com.company.Kyu4Medium.LargeFactorials;
+package com.company.Kyu4Hard.LargeFactorials;
 
 import java.math.BigInteger;
 

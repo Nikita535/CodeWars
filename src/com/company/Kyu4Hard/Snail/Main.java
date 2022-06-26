@@ -1,4 +1,4 @@
-package com.company.Kyu4Medium.Snail;
+package com.company.Kyu4Hard.Snail;
 
 import java.util.ArrayList;
 import java.util.Arrays;
