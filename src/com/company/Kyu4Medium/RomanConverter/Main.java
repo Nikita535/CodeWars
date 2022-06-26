@@ -1,7 +1,6 @@
-package com.company.RomanConverter;
+package com.company.Kyu4Medium.RomanConverter;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Main {
 

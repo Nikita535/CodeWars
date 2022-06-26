@@ -1,4 +1,4 @@
-package com.company.SortTheOdd;
+package com.company.Kyu6Easy.SortTheOdd;
 
 import java.util.*;
 public class Main {
