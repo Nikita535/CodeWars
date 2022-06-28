@@ -1,21 +1,18 @@
 package com.company.Kyu4Hard.MiddlePermutation;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
-    static List<String> list = new ArrayList<>();
+    static Set<String> list = new HashSet<>();
 
     public static void main(String[] args) {
-        System.out.println(findMidPerm("abcd"));
+        System.out.println(findMidPerm("ab"));
 
     }
 
 
-    static void permutation(String prefix, String str, List<String> res) {
-        final int count = (int) Math.pow(str.length(), 2);
+    static void permutation(String prefix, String str, Set<String> res) {
         int n = str.length();
         if (n == 0) {
             res.add(prefix);
@@ -26,10 +23,9 @@ public class Main {
 
     }
 
-    static String findMidPerm(String str) {
+    static List<String> findMidPerm(String str) {
         permutation("", str, list);
-        Collections.sort(list);
-        return list.get((list.size() / 2) - 1);
+        return new ArrayList<>(list);
     }
 }
 
